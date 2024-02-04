@@ -1,0 +1,501 @@
+@media screen and (min-width: 1919px) {
+    .cards .container {
+        max-width: 1920px;
+        grid-template-columns: repeat(3, 34.3%);
+    }
+    .cards-card-title {
+        font-size: 32px;
+    }
+    .cards-card-img {
+        margin-left: 100px;
+    }
+    .card4-img {
+        margin-left: 30px;
+    }
+    .card4-img img {
+        width: 642px !important;
+        height: 330px;
+    }
+    .cards-card-info-text {
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .advantages .container {
+        max-width: 1920px;
+    }
+    .advantages-items {
+        grid-column-gap: 170px;
+    }
+    .advantages-item2-text1-text {
+        font-size: 24px;
+        max-width: 260px;
+    }
+    .advantages-title {
+        max-width: 516px;
+        font-size: 40px;
+    }
+
+    .ecg-top-img img {
+        width: 290px;
+    }
+    .ecg .container {
+        max-width: 1920px;
+    }
+    .ecg-top-img {
+        margin-left: 0;
+        margin-top: 8%;
+    }
+    .ecg-top-img-title, .ecg-top-img-title2, .ecg-top-img-title3 {
+        font-size: 24px;
+    }
+    .footer .container {
+        max-width: 1920px;
+        grid-template-columns: 33% 26% 24% 15%;
+    }
+    .footer-logo {
+        margin-left: 4%;
+    }
+    .offer-right-img img {
+        width: 187px;
+    }
+    .offer-right-img-2-left img {
+        width: 267px;
+        height: 253px;
+    }
+
+}
+@media screen and (max-width: 1486px) {
+    .ecg-bottom-card-info img {
+        width: 200px;
+    }
+
+    .ecg-top {
+        grid-template-columns: 33% 14% 34% 20%;
+    }
+    .ecg-top-img-title3 {
+        margin-top: 42%;
+    }
+}
+@media screen and (max-width: 1454px) {
+    .footer-glav {
+        font-size: 14px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1441px) {
+    .ecg-top {
+        display: grid;
+        grid-template-columns: 33% 14% 34% 15%;
+    }
+    .ecg-top-img-title3 {
+        margin-top: 56%;
+        margin-bottom: 52px;
+    }
+    .footer .container {
+        grid-template-columns: 12% 23% 29% 16% 19%;
+    }
+
+    .footer .container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 54px;
+    }
+}
+@media screen and (max-width: 1321px) {
+    .ecg-bottom-card-info img {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 1221px) {
+    .ecg-top-img-title, .ecg-top-img-title2, .ecg-top-img-title3 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1261px) {
+    .footer-glav {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .contacts-img img {
+        width: 420px;
+    }
+    .contacts-info-title {
+        font-size: 42px;
+    }
+    .contacts-info-tel {
+        font-size: 42px;
+    }
+    .ecg-bottom-card-info img {
+        width: 200px;
+    }
+
+    .ecg-top {
+        grid-template-columns: 33% 14% 34% 20%;
+    }
+    .ecg-top-img-title3 {
+        margin-top: 42%;
+    }
+}
+@media screen and (max-width: 787px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header-catalog-title, .header-menu, .header-tel {
+        display: none;
+    }
+    .contacts .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contacts-img {
+        background-image: url(../../images/card_new/31.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        text-align: center;
+    }
+    .contacts-info {
+        background-image: none;
+    }
+    .contacts-info-title, .contacts-info-tel {
+        text-align: center;
+    }
+    .contacts-info-text {
+        display: block;
+    }
+    .contacts-info-text-left {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contacts-info-text-right {
+        max-width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contacts-info-poch {
+        display: block;
+    }
+    .contacts-info-poch-img {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 18px;
+    }
+    .contacts-info-poch-img-line, .contacts-info-poch-img-line2 {
+        display: block;
+    }
+    .contacts-info-poch-img-line {
+        left: 20%;
+    }
+    .contacts-info-poch-text {
+        text-align: center;
+        max-width: 215px;
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+    .contacts-info-toch {
+        display: block;
+    }
+    .contacts-info-toch-img {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 17px;
+    }
+    .contacts-info-poch-img-line2 {
+        left: 20%;
+        top: 12%;
+    }
+    .contacts-info-toch-text {
+        text-align: center;
+    }
+    .ecg-top {
+        display: block;
+    }
+    .ecg-top2, .ecg-top3 {
+        border-bottom: 1px solid #7f7f7f;
+        padding-bottom: 55px;
+    }
+    .ecg {
+        position: relative;
+    }
+    .ecg-top-img {
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+    }
+    .ecg-bottom-card-info-img {
+        text-align: center;
+        margin-left: 60%;
+    }
+    .ecg-top-img-title {
+        font-size: 24px;
+        margin-top: 10%;
+    }
+    .ecg-bottom-cards-info {
+        display: grid;
+        grid-template-columns: 50% 45%;
+    }
+    .ecg-bottom-card-info {
+        font-size: 22px;
+    }
+    .ecg-top-img-title2 {
+        margin-top: 15%;
+        font-size: 24px;
+        margin-left: 0%;
+    }
+    .ecg-top-img-title3 {
+        margin-top: 12%;
+        margin-bottom: 13px;
+        font-size: 24px;
+    }
+    .ecg-top1 img {
+        width: 170px;
+    }
+    .ecg-bottom-card-info-bottom {
+        max-width: 400px;
+        font-size: 20px;
+    }
+    .footer {
+        margin-top: 16%;
+        padding-left: 73px;
+    }
+    .footer .container {
+        display: block;
+    }
+    .footer-glav {
+        font-size: 22px;
+        margin-top: -22%;
+        margin-left: 62%;
+    }
+    .footer-squares {
+        margin-top: -26%;
+    }
+    .footer-logo {
+        margin-bottom: 16px;
+    }
+
+    .footer-text {
+        margin-bottom: 4px;
+    }
+}
+@media screen and (max-width: 718px) {
+    .footer-squares {
+        margin-top: -33%;
+    }
+    .footer-glav {
+        font-size: 18px;
+        margin-top: -20%;
+    }
+}
+@media screen and (max-width: 578px) {
+    .footer-squares {
+        margin-top: -40%;
+    }
+    .footer-glav {
+        font-size: 15px;
+        margin-top: -24%;
+    }
+}
+@media screen and (max-width: 431px) {
+    .header {
+        padding-left: 20px;
+    }
+    .contacts {
+        padding: 20px 10px 0 10px;
+    }
+    .contacts-img img {
+        width: 256px;
+    }
+    .contacts-info-title, .contacts-info-tel {
+        font-size: 32px;
+    }
+    .contacts-info-title {
+        margin-bottom: 40px;
+    }
+    .contacts-info-tel {
+        margin-bottom: 20px;
+    }
+    .contacts-info-poch-img-line {
+        left: -24%;
+    }
+    .contacts-info-poch-img-line2 {
+        left: -23%;
+    }
+    .ecg-bottom-card-info img {
+        width: 179px;
+    }
+    .ecg-bottom-cards-info {
+        grid-template-columns: 50% 54%;
+    }
+    .ecg-bottom-card-info {
+        font-size: 16px;
+    }
+    .contacts-info-toch-text1, .contacts-info-toch-text2 {
+        font-size: 18px;
+        text-align: center;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .contacts-info-text-left {
+        font-size: 16px;
+    }
+    .contacts-info-text-right {
+        font-size: 18px;
+        max-width: 158px;
+    }
+    .contacts-info-text {
+        margin-bottom: 55px;
+    }
+    .contacts-info-poch-img-line {
+        left: 7%;
+    }
+    .contacts-info-poch-img, .contacts-info-toch-img
+    {
+        margin-right: 0;
+    }
+    .contacts-info-poch-img-line2 {
+        left: 7%;
+    }
+    .contacts-info-toch {
+        border-bottom: 1px solid #7f7f7f;
+        padding-bottom: 70px;
+    }
+    .ecg {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .ecg-bottom-card-info-bottom {
+        font-size: 14px;
+    }
+    .ecg-top1 img {
+        width: 130px;
+    }
+    .ecg-bottom-card-info img {
+        width: 150px;
+    }
+    .footer {
+        margin-top: 27%;
+    }
+    .footer-glav {
+        font-size: 12px;
+        /*margin-top: -48%;*/
+        /*margin-left: 62%;*/
+        margin-top: -43%;
+        margin-left: 69%;
+        width: 135px;
+    }
+    .footer-squares {
+        margin-top: -74%;
+        margin-left: -20%;
+    }
+    .ecg-top-img {
+        margin-left: -25px;
+    }
+    .footer-logo {
+        margin-left: -20%;
+    }
+    .footer-text {
+        margin-left: -20%;
+    }
+}
+@media screen and (max-width: 415px) {
+    .footer-glav {
+        margin-top: -48%;
+    }
+}
+@media screen and (max-width: 391px) {
+    .footer-glav {
+        margin-top: -54%;
+    }
+}
+@media screen and (max-width: 376px) {
+    .contacts-info-poch-img-line {
+        left: 0%;
+    }
+    .contacts-info-poch-img-line2 {
+        left: 0%;
+    }
+    .ecg-bottom-card-info img {
+        width: 147px;
+    }
+    .footer-squares {
+        margin-top: -82%;
+        margin-left: -28%;
+    }
+    .footer-glav {
+        margin-top: -56%;
+        margin-left: 71%;
+    }
+    .footer-logo {
+        margin-left: -27%;
+    }
+    .footer-text {
+        margin-left: -28%;
+    }
+}
+@media screen and (max-width: 361px) {
+    .footer-glav {
+        margin-top: -67%;
+    }
+    .ecg-bottom-card-info img {
+        width: 139px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .contacts-info-poch-img-line img, .contacts-info-poch-img-line2 img {
+        width: 280px;
+    }
+    .ecg-top1 img {
+        width: 120px;
+    }
+    .ecg-bottom-card-info img {
+        width: 120px;
+    }
+    .footer-glav {
+        margin-top: -62%;
+        margin-left: 67%;
+    }
+    .footer-squares {
+        margin-top: -100%;
+        margin-left: -40%;
+    }
+    .footer-logo {
+        margin-left: -38%;
+    }
+    .footer-text {
+        margin-left: -38%;
+    }
+
+    .ecg-bottom-card-info img {
+        width: 116px!important;
+    }
+
+    .ecg-bottom-card-info-bottom {
+        margin-bottom: 20px;
+    }
+
+    .footer-glav {
+        margin-top: -80%!important;
+    }
+    .footer-squares {
+        margin-top: -126%!important;
+    }
+
+    .footer {
+        margin-top: 52%;
+        margin-bottom: 20px;
+        margin-left: -22px;
+    }
+
+    .footer-squares {
+        margin-top: -100%;
+        margin-left: -19%;
+    }
+    .footer-logo {
+        margin-left: -17%;
+    }
+    .footer-text {
+        margin-left: -16%;
+    }
+}

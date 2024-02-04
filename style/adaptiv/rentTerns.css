@@ -1,0 +1,305 @@
+@media screen and (min-width: 1919px) {
+    .rent .container {
+        max-width: 1920px;
+    }
+    .equipment-content-right-client-left-title, .equipment-content-right-client-right-title {
+        font-size: 18px;
+    }
+    .equipment2 .container {
+        max-width: 1920px;
+    }
+    .advantages-img {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .rent .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .rent {
+        padding-left: 0;
+    }
+    .rent-left-img {
+        text-align: center;
+    }
+    .rent-right-title {
+        text-align: center;
+    }
+    .rent-right-text {
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    .rent-right-content {
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .rent-right-content-item1 {
+        padding-bottom: 20px;
+    }
+    .rent-right-content-item1-text {
+        margin: 0 auto;
+    }
+    .rent-right-content-item1-title, .rent-right-content-item2-text {
+        text-align: center;
+    }
+    .rent-right-content-item2-title {
+        font-size: 18px;
+        font-family: "Montserrat-Bold", sans-serif;
+        color: rgb(237, 117, 45);
+        text-transform: uppercase;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .rent-right-content-item3 {
+        height: 20px;
+        margin: 0 auto;
+        margin-bottom: 33px;
+    }
+
+    .equipment-content-right-title2 {
+        text-align: center;
+    }
+    .equipment-content-right-client {
+        grid-template-columns: 49% 85%;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .equipment2-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .equipment2-title {
+        text-align: center;
+    }
+
+    .advantages {
+        padding-left: 0;
+    }
+    .advantages .container {
+        display: block;
+    }
+
+    .advantages-title {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+    .advantages-items {
+        grid-template-columns: repeat(1, 400px);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .advantages-item2 {
+        grid-template-columns: 45% 44%;
+    }
+    .advantages-item4 {
+        grid-template-columns: 45% 60%;
+    }
+    .advantages-img {
+        margin: 0 auto;
+    }
+
+    .equipment2-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cards-card-img {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .cards-card-title {
+        font-size: 42px;
+        margin-bottom: 40px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .cards-card-info {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .cards-card-info-text {
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    .cards-card {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .cards-card:nth-child(1) {
+        border-bottom: 0;
+        border-right: 2px solid #919191;
+    }
+    .cards-card:nth-child(2) {
+        border-bottom: 0;
+        border-right: 2px solid #919191;
+    }
+
+}
+
+
+@media screen and (max-width: 769px) {
+    .rent {
+        padding-bottom: 0;
+    }
+    .rent-right-text {
+        max-width: 550px;
+        text-align: center;
+    }
+    .equipment-content-right-client {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .equipment-info {
+        text-align: left;
+    }
+    .equipment-content-right-client-left {
+        margin: 0 auto;
+    }
+    .equipment-info {
+        display: grid;
+        grid-template-columns: 49% 50%;
+    }
+    .equipment-content-right-client-left-text2 {
+        margin-top: 0;
+    }
+    .equipment-content-right-client-left-title {
+        max-width: 170px;
+    }
+    .equipment-content-right-client-right {
+        margin: 0 auto;
+        max-width: 312px;
+    }
+    .equipment-content-right-client-right-content2 {
+        grid-template-columns: 65% 32%;
+    }
+}
+
+@media screen and (max-width: 431px) {
+
+    .rent-right-title {
+        font-size: 35px;
+    }
+    .rent-right-text {
+        max-width: 297px;
+    }
+    .advantages-img {
+        background-size: 95%;
+    }
+    .advantages-item1, .advantages-item2, .advantages-item3, .advantages-item4 {
+        display: block;
+    }
+    .advantages {
+        text-align: center;
+    }
+    .advantages-item1 {
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+    .advantages-item2 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+    .advantages-item3 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+    .advantages-item4 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        /*border-bottom: 1px solid #7f7f7f;*/
+    }
+    .advantages-item1-img img {
+        width: 100px;
+    }
+    .advantages-item2-img img {
+        width: 100px;
+    }
+    .advantages-item3-img img {
+        width: 100px;
+    }
+    .advantages-item2-text1-text {
+        margin: 0 auto;
+    }
+    .advantages-item3_3 {
+        margin-left: -6%;
+    }
+    .advantages-item4-img {
+        margin-left: -2%;
+    }
+    .advantages-item2-text1 {
+        position: relative;
+    }
+    .advantages-item2-text1-icon {
+        position: absolute;
+        top: -285%;
+        left: 5%;
+    }
+    .advantages-item2-text1-icon_2 {
+        top: -320%;
+    }
+    .advantages-item2-text1-icon_3 {
+        top: -320%;
+    }
+    .advantages-item2-text1-icon_4 {
+        top: -225%;
+    }
+
+    .equipment2-title {
+     margin-left: 0;
+    }
+
+    .cards-card-info {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cards-card-info-btn {
+        margin: 0 auto;
+        padding-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .rent-left-img img {
+        width: 350px;
+        height: 470px;
+    }
+    .rent-right-title {
+        font-size: 30px;
+    }
+    .equipment2-title {
+         margin-left: 0;
+    }
+    .advantages-img {
+        background-size: 82%;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .rent-left-img img {
+        width: 280px;
+        height: 340px;
+    }
+    .equipment-content-right-client-right {
+        max-width: 280px;
+    }
+    .cards-card {
+        padding-left: 0px;
+    }
+    .advantages-title {
+        font-size: 32px;
+    }
+    .cards-card:nth-child(3) .cards-card-img img {
+        margin-left: -26%;
+    }
+    .equipment2-cards {
+        grid-template-columns: repeat(1, 320px);
+    }
+}

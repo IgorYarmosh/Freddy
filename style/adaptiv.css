@@ -1,0 +1,251 @@
+/*@media screen and (max-width: 1676px) {*/
+/*    .offer .container {*/
+/*        max-width: 1640px;*/
+/*    }*/
+/*    .offer {*/
+/*        padding-left: 90px;*/
+/*    }*/
+/*    .offer-right-img-2 {*/
+/*        left: 13%;*/
+/*    }*/
+/*    .offer-right-title-2 {*/
+/*        left: 0;*/
+/*    }*/
+/*    .offer-right-img-2 img {*/
+/*        width: 438px;*/
+/*    }*/
+/*    .offer-right-title, .offer-right-title-2 {*/
+/*        margin-left: 53%;*/
+/*    }*/
+/*    .offer-right-img {*/
+/*        left: 20%;*/
+/*    }*/
+/*    .offer-right-img-3 {*/
+/*        right: 53%;*/
+/*    }*/
+/*    .advantages-item2-text1-text:nth-child(2), .advantages-item2-text1-text:nth-child(4) {*/
+/*        max-width: 350px;*/
+/*    }*/
+/*    .cards .container {*/
+/*        display: grid;*/
+/*        grid-template-columns: repeat(3, 1fr);*/
+/*    }*/
+/*    .freddy .container {*/
+/*        display: grid;*/
+/*        grid-template-columns: 46% 30% 24%;*/
+/*    }*/
+/*    .freddy-medium-1 {*/
+/*        width: 444px;*/
+/*    }*/
+/*    .freddy-left {*/
+/*        width: 750px;*/
+/*    }*/
+/*    .freddy-medium-2 {*/
+/*        width: 444px;*/
+/*    }*/
+/*    .freddy-medium-2-text {*/
+/*        margin-top: -24%;*/
+/*    }*/
+/*    .freddy-medium-text, .freddy-right-1-text {*/
+/*        margin-left: 130px;*/
+/*    }*/
+/*    .equipment .container {*/
+/*        display: grid;*/
+/*        grid-template-columns: 777px 873px;*/
+/*    }*/
+/*    .equipment-content {*/
+/*        max-width: 785px;*/
+/*        padding-right: 180px;*/
+/*    }*/
+/*    .equipment-items {*/
+/*        margin-right: 5%;*/
+/*    }*/
+/*    .equipment-items-info-text {*/
+/*        font-size: 15px;*/
+/*    }*/
+/*}*/
+
+
+@media screen and (max-width: 2561px) {
+    body {
+        overflow-x: hidden;
+    }
+    .rent .container {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1492px) {
+    .header {
+        max-width: 85%;
+    }
+    .offer .container {
+        max-width: 1200px;
+    }
+    .offer {
+        padding-left: 0;
+    }
+    .offer-left-title {
+        font-size: 30px;
+    }
+    .offer-left-img {
+        margin-left: -6%;
+    }
+    .rent-title-title, .rent-title-text {
+        font-size: 60px;
+    }
+    .rent-catalog-btn button {
+        width: 370px;
+    }
+    .offer-left-middle {
+        display: grid;
+        grid-template-columns: 41% 40%;
+    }
+    .offer-middle-btn button {
+        width: 170px;
+        padding: 18px 0 18px 0;
+        font-size: 15px;
+        margin-left: 1px;
+    }
+    .offer-arrow-text {
+        font-size: 16px;
+        margin-left: 41%;
+    }
+    .offer-right-title, .offer-right-title-2 {
+        font-size: 18px;
+    }
+    .offer-right-img-2-left {
+        margin-left: -22px;
+    }
+    .offer-right-img {
+        left: 0%;
+    }
+    .offer {
+        border-bottom: none;
+    }
+    .freddy-line {
+        width: 367px;
+    }
+    .freddy-title, .freddy-title1 {
+        font-size: 41px;
+    }
+    .card4-img img {
+        width: 457px!important;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .rent-title-title, .rent-title-text {
+        font-size: 41px;
+    }
+    .rent {
+        padding-left: 70px;
+    }
+    .rent-img img {
+        width: 290px;
+    }
+    .rent-catalog-btn button {
+        width: 300px;
+        padding: 30px 0 30px 0;
+    }
+    .rent-catalog-text {
+        font-size: 20px;
+    }
+    .rent-img {
+        position: absolute;
+        right: 3%;
+        top: 55%;
+    }
+    .offer .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        overflow: hidden;
+    }
+    .offer-left-middle {
+        display: flex;
+    }
+    .offer-right {
+        border-left: 0;
+        max-width: 450px;
+        margin-left: 30%;
+    }
+    .offer-right-left-info {
+        max-width: 400px;
+    }
+    .offer-right-right-info {
+        max-width: 400px;
+    }
+    .advantages .container {
+        /*display: block;
+        margin: 0 auto;
+        max-width: 650px;*/
+    }
+    .advantages-item2-text1-text {
+        font-size: 10px;
+    }
+    .advantages-item1 img, .advantages-item2 img, .advantages-item3 img, .advantages-item4 img{
+        width: 60px;
+    }
+    .advantages-item3_3 {
+        margin-top: 52%;
+    }
+    .advantages-bottom {
+        margin-top: 49%;
+    }
+    .freddy-title, .freddy-title1 {
+        font-size: 28px;
+    }
+    .freddy-line {
+        width: 250px;
+    }
+    .freddy .container {
+        grid-template-columns: 44% 29.9% 26%;
+        max-width: 1000px;
+        overflow: hidden;
+    }
+    .freddy-right-1 {
+        max-width: 264px;
+    }
+    .freddy-right-2-content2-img img {
+        width: 242px;
+    }
+    .freddy-right-2-content2-img {
+        margin-top: 73px;
+        margin-left: -10%;
+    }
+    .equipment-info {
+        padding: 57px 0 57px 10px;
+    }
+    .equipment-title {
+        font-size: 40px;
+    }
+    .equipment .container {
+        grid-template-columns: 44% 56%;
+    }
+    .items1 {
+        margin-right: 2%;
+    }
+    .equipment-items-info-title, .equipment-items-info-title1 {
+        font-size: 18px;
+    }
+    .cards .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .numbers-info {
+        display: block;
+        margin-left: 30%;
+    }
+    .numbers-info-left-img {
+        margin-left: 0;
+    }
+    .numbers-info-middle-number-text {
+        margin-bottom: 26%;
+    }
+    .numbers-info-right-text {
+        margin-top: 2%;
+    }
+    .ecg-bottom-card-info img {
+        width: 200px;
+    }
+}
+
+

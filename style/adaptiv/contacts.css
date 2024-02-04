@@ -1,0 +1,181 @@
+@media screen and (min-width: 1919px) {
+    .contacts .container {
+        max-width: 1920px;
+    }
+    .contacts-img img {
+        width: 620px;
+    }
+}
+@media screen and (max-width: 1455px) {
+    .contacts .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contacts-img {
+        background-image: url(../../images/card_new/31.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        text-align: center;
+    }
+    .contacts-info {
+        background-image: none;
+    }
+    .contacts-info-title, .contacts-info-tel {
+        text-align: center;
+    }
+    .contacts-info-text {
+        display: block;
+    }
+    .contacts-info-text-left {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contacts-info-text-right {
+        max-width: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .contacts-info-poch {
+        display: block;
+    }
+    .contacts-info-poch-img {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 18px;
+        position: relative;
+    }
+    .contacts-info-poch-img-line, .contacts-info-poch-img-line2 {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .contacts-info-poch-text {
+        text-align: center;
+        max-width: 215px;
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+    .contacts-info-toch {
+        display: block;
+    }
+    .contacts-info-toch-img {
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 17px;
+    }
+
+    .contacts-info-toch-text {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .contacts-img img {
+        width: 420px;
+    }
+    .contacts-info-title {
+        font-size: 42px;
+    }
+    .contacts-info-tel {
+        font-size: 42px;
+    }
+}
+@media screen and (max-width: 769px) {
+    body {
+    }
+    .header-catalog-title, .header-menu, .header-tel {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 431px) {
+    .contacts {
+        padding: 20px 10px 0 10px;
+    }
+    .contacts-img img {
+        width: 256px;
+    }
+    .contacts-info-title, .contacts-info-tel {
+        font-size: 32px;
+    }
+    .contacts-info-title {
+        margin-bottom: 40px;
+    }
+    .contacts-info-tel {
+        margin-bottom: 20px;
+    }
+    .contacts-info-toch-text1, .contacts-info-toch-text2 {
+        font-size: 18px;
+        text-align: center;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .contacts-info-text-left {
+        font-size: 16px;
+    }
+    .contacts-info-text-right {
+        font-size: 18px;
+        max-width: 158px;
+    }
+    .contacts-info-text {
+        margin-bottom: 55px;
+    }
+    .contacts-info-poch-img, .contacts-info-toch-img
+    {
+        margin-right: 0;
+    }
+
+    .contacts-info-toch {
+        border-bottom: 1px solid #7f7f7f;
+        padding-bottom: 70px;
+    }
+
+    .contacts-popup {
+        max-width: 355px;
+    }
+    .contacts-popup-close {
+        margin-left: 89%;
+    }
+
+    .contacts-popup2 {
+        max-width: 365px;
+    }
+
+    .ecovac-right-input input {
+        width: 70%;
+        padding: 40px 0 30px 10%;
+    }
+
+}
+@media screen and (max-width: 376px) {
+    .contacts-info-poch-img-line {
+        left: 0%;
+    }
+    .contacts-info-poch-img-line2 {
+        left: 0%;
+    }
+    .contacts-popup2 {
+        max-width: 327px;
+    }
+}
+@media screen and (max-width: 321px) {
+    .contacts-info-poch-img-line img, .contacts-info-poch-img-line2 img {
+        width: 280px;
+    }
+    .contacts-popup {
+        max-width: 300px;
+    }
+
+    .ecovac-right-input input {
+        width: 76%;
+        padding: 40px 0 30px 4%;
+    }
+
+    .contacts-popup2 {
+        max-width: 300px;
+    }
+}

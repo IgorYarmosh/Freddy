@@ -1,0 +1,155 @@
+.company .container {
+    max-width: 1540px;
+    display: grid;
+    grid-template-columns: 52% 48%;
+    padding-left: 80px;
+}
+.company-left-title1, .company-left-title2 {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: 70px;
+}
+.company-left-title2 {
+    margin-top: 0;
+    margin-bottom: 90px;
+}
+.company-left-text {
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    max-width: 79%;
+}
+.company-right {
+
+    /*background-color: #000000;*/
+    /*width: 100%;*/
+}
+.about-info .container {
+    max-width: 1540px;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.about-info-img img {
+    width: 80%;
+}
+.about-info-text1 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.778;
+    max-width: 760px;
+    margin-bottom: 46px;
+}
+.about-info-text2 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.778;
+    max-width: 760px;
+}
+.advantages2 {
+    background-color: #e9782e;
+    margin-right: 25%;
+    padding: 100px 0 100px 160px;
+    position: relative;
+}
+.advantages2 .container {
+    max-width: 1540px;
+    background-color: #e9782e;
+}
+.advantages-info {
+    max-width: 880px;
+    position: relative;
+}
+.advantages-info-1, .advantages-info-2, .advantages-info-3 {
+    font-size: 38px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+.advantages-info-2 {
+    position: relative;
+    display: inline-block;
+}
+.advantages-info-2:after{
+    content: " ";
+    background: #ffffff;
+    width: 315px;
+    height: 6px;
+    top: 29px;
+    position: absolute;
+}
+.advantages-info-3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 16%;
+}
+.advantages-info-3:before {
+    content: " ";
+    background: #ffffff;
+    width: 190px;
+    height: 6px;
+    top: 29px;
+    right: 104%;
+    position: absolute;
+}
+.advantages-info-square {
+    position: absolute;
+    right: -20%;
+    bottom: -31%;
+}
+.advantages-info-square img {
+    width: 450px;
+}
+.why {
+    padding: 150px 0 50px 80px;
+}
+.why .container {
+    max-width: 1540px;
+}
+.why-title {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #e9782e;
+    margin-bottom: 56px;
+}
+.why-text {
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 1293px;
+    margin-bottom: 110px;
+}
+.why-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    /*margin-bottom: 60px;*/
+}
+.wy-item {
+
+}
+.wy-item-title {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(233, 120, 46);
+    margin-bottom: 10px;
+}
+.wy-item-text {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.778;
+    max-width: 342px;
+}
+.text3 {
+    max-width: 414px;
+}
+.company-right-img img {
+    width: 660px;
+}

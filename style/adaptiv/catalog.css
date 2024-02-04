@@ -1,0 +1,432 @@
+@media screen and (min-width: 1919px) {
+    .cards .container {
+        max-width: 1920px;
+        grid-template-columns: repeat(3, 33.3%);
+    }
+
+    .card4-img img {
+        width: 617px !important;
+        height: 330px;
+    }
+
+    .banner .container {
+        max-width: 1920px;
+    }
+
+    .banner-info {
+        max-width: 61.9%;
+    }
+
+    .cards-card:nth-child(9) .cards-card-img {
+        margin-bottom: 60px;
+    }
+    .advantages-img {
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 1910px) {
+    .banner-info {
+        max-width: 60.8%;
+    }
+}
+
+@media screen and (max-width: 1541px) {
+    .banner-info {
+        max-width: 60.5%;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .banner-info {
+        max-width: 60.5%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+
+    .cards-card:nth-child(9) {
+        margin-bottom: -46% !important;
+    }
+
+    .cards-card-info-text {
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+
+    .card4-img img {
+        width: 466px !important;
+    }
+
+    .advantages {
+        padding: 90px 0 0 80px;
+    }
+    .cards .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cards-card-img {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .cards-card-title {
+        font-size: 42px;
+        max-width: 240px;
+        padding-bottom: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .cards-card-info {
+        display: grid;
+        grid-template-columns: 50% 59%;
+        margin: 0 auto;
+        max-width: 380px;
+    }
+    .cards-card-info-text {
+        font-size: 18px;
+        margin-top: 17px;
+    }
+    .cards-card:nth-child(9) {
+        margin-bottom: 0% !important;
+    }
+    .cards-card:nth-child(9) .cards-card-img {
+        margin-top: 36px;
+    }
+    .cards-card-info {
+        display: block;
+    }
+    .cards-card-info-btn {
+        margin: 0 auto;
+    }
+    .cards-card-info-text {
+        text-align: center;
+        padding-top: 15px;
+    }
+    .cards-card:nth-child(5) .cards-card-img img {
+        margin-left: -10%;
+    }
+    .banner-info {
+        max-width: 93.5%;
+    }
+    .cards-card-title2 {
+        margin: 0 auto;
+    }
+
+    .advantages {
+        padding-left: 0;
+    }
+    .advantages .container {
+        display: block;
+    }
+    .advantages-img {
+        margin: 0 auto;
+    }
+    .advantages-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .advantages-items {
+        grid-template-columns: repeat(1, 400px);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .advantages-item2 {
+        grid-template-columns: 45% 44%;
+    }
+    .advantages-item4 {
+        grid-template-columns: 45% 60%;
+    }
+    .cards-card:nth-child(1), .cards-card:nth-child(2), .cards-card:nth-child(4), .cards-card:nth-child(5),
+    .cards-card:nth-child(7), .cards-card:nth-child(8) {
+        border-right: 2px solid #919191;
+    }
+    .cards-card:nth-child(9) {
+        border-top: 0;
+        border-bottom: 2px solid #919191;
+    }
+    .cards-card:nth-child(7) {
+        border-bottom: 0;
+    }
+    .cards2 .cards-card:nth-child(1) {
+        border-bottom: 0;
+    }
+    .cards2 .cards-card:nth-child(2) {
+        border-bottom: 0;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .catalog-title {
+        font-size: 45px;
+    }
+
+
+
+    .banner-info {
+        max-width: 91.5%;
+    }
+
+    .card4-img {
+        margin-top: 0;
+    }
+
+    .cards-card-title2 {
+        margin: 0 auto;
+    }
+
+    .advantages {
+        padding-left: 0;
+    }
+
+    .advantages .container {
+        display: block;
+    }
+
+
+    .advantages-title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .advantages-items {
+        grid-template-columns: repeat(1, 400px);
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .advantages-item2 {
+        grid-template-columns: 45% 44%;
+    }
+
+    .advantages-item4 {
+        grid-template-columns: 45% 60%;
+    }
+
+    .cards-card-info-btn a {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 431px) {
+    .catalog {
+        padding: 35px 0 36px 15px;
+    }
+
+    .catalog-title {
+        font-size: 20px;
+    }
+
+    .cards-card {
+        padding-left: 40px;
+    }
+
+    .cards-card-info {
+        display: block;
+    }
+
+    .cards-card-info-btn {
+        margin: 0 auto;
+    }
+
+    .cards-card-info-text {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .cards-card-info-text {
+        margin-top: 45px;
+    }
+
+    .cards-card3 img {
+        margin-left: -85px;
+    }
+
+    .cards-card:nth-child(5) .cards-card-img img {
+        margin-left: -10%;
+    }
+
+    .cards-card:nth-child(9) .cards-card-img img {
+        margin-left: 20px;
+    }
+
+    .banner-info {
+        padding-left: 30px;
+        max-width: 98.5%;
+        height: 345px;
+    }
+
+    .equipment-content {
+        display: block;
+    }
+
+    .equipment-items {
+        padding-top: 60px;
+        width: 395px;
+        border-bottom: 1px solid #7f7f7f;
+        padding-bottom: 60px;
+    }
+
+    .items1 {
+        padding-top: 0;
+    }
+
+    .advantages-img {
+        background-size: 95%;
+    }
+
+    .advantages-item1, .advantages-item2, .advantages-item3, .advantages-item4 {
+        display: block;
+    }
+
+    .advantages {
+        text-align: center;
+    }
+
+    .advantages-item1 {
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+
+    .advantages-item2 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+
+    .advantages-item3 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+
+    .advantages-item4 {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        border-bottom: 1px solid #7f7f7f;
+    }
+
+    .advantages-item1-img img {
+        width: 100px;
+    }
+
+    .advantages-item2-img img {
+        width: 100px;
+    }
+
+    .advantages-item3-img img {
+        width: 100px;
+    }
+
+    .advantages-item2-text1-text {
+        margin: 0 auto;
+    }
+
+    .advantages-item3_3 {
+        margin-left: -6%;
+    }
+
+    .advantages-item4-img {
+        margin-left: -2%;
+    }
+
+    .advantages-item2-text1 {
+        position: relative;
+    }
+
+    .advantages-item2-text1-icon {
+        position: absolute;
+        top: -285%;
+        left: 5%;
+    }
+
+    .advantages-item2-text1-icon_2 {
+        top: -320%;
+    }
+
+    .advantages-item2-text1-icon_3 {
+        top: -320%;
+    }
+
+    .advantages-item2-text1-icon_4 {
+        top: -225%;
+    }
+    .card4-img img {
+        width: 415px !important;
+    }
+    .card4-img img {
+        margin-left: -13%!important;
+    }
+}
+@media screen and (max-width: 376px) {
+    .cards-card {
+        padding-left: 15px;
+    }
+
+    .advantages-img {
+        background-size: 82%;
+    }
+
+    .cards-card-title {
+        font-size: 32px;
+    }
+
+    .cards-card-title2 {
+        font-size: 32px;
+    }
+
+    .advantages-title {
+        font-size: 32px;
+    }
+    .cards .container {
+        grid-template-columns: repeat(1, 370px);
+    }
+    .card4-img img {
+        width: 358px !important;
+    }
+    .card4-img img {
+        margin-left: -4%!important;
+    }
+}
+@media screen and (max-width: 321px) {
+    .cards-card {
+        padding-left: 0;
+    }
+    .cards-card-img img {
+        width: 300px;
+    }
+    .cards-card3 img {
+        width: 500px;
+    }
+    .cards-card-img_11 img {
+        width: 400px;
+    }
+    .cards-card-img_9 img {
+        width: 268px;
+    }
+    .equipment-items-info-title, .equipment-items-info-title1 {
+        font-size: 16px;
+    }
+    .equipment-items-info {
+        max-width: 100px;
+    }
+    .cards-card-title2 {
+        font-size: 24px;
+    }
+    .advantages-title {
+        font-size: 24px;
+    }
+    .advantages-items {
+        grid-template-columns: repeat(1, 255px);
+        max-width: 260px;
+    }
+
+    .catalog-title {
+        font-size: 18px;
+    }
+    .card4-img img {
+        width: 315px !important;
+    }
+    .card4-img img {
+        margin-left: 0%!important;
+    }
+    .cards .container {
+        grid-template-columns: repeat(1, 320px);
+    }
+}

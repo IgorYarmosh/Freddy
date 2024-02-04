@@ -1,0 +1,109 @@
+.faq {
+    padding: 20px 90px 20px 90px;
+}
+.faq .container {
+    max-width: 1540px;
+}
+.faq-content {
+    display: grid;
+    grid-template-columns: 38% 65%;
+}
+.faq-info-title-text {
+    display: grid;
+    grid-template-columns: 76% 24%;
+    margin-bottom: 20px;
+}
+.faq-info-title {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+}
+.faq-info-text {
+    margin-top: 10px;
+}
+.faq-info-text button {
+    padding: 10px 0 10px 0;
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(216, 109, 38);
+    background: transparent;
+    border: 1px solid rgb(216, 109, 38);
+    border-radius: 10px;
+}
+.accordion{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.toggle-box {
+    display: none;
+}
+.toggle-box + label {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6c6e74', endColorstr='#4b4d51',GradientType=0 );
+    cursor: pointer;
+    display: block;
+    padding: 15px 0;
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    border-top: 1px solid #cccccc;
+}
+.box1 + label {
+    border-bottom: 1px solid #cccccc;
+}
+.box1:checked + label {
+    border-bottom: none;
+}
+.toggle-box + label + div {
+    display: none;
+}
+.toggle-box:checked + label + div {
+    display: block;
+    max-width: 81%;
+}
+.toggle-box + label:before {
+    color: #ec7430;
+    content: "+";
+    display: block;
+    float: right;
+    font-size: 55px;
+    height: 18px;
+    margin: -24px 18px 0px;
+    text-align: center;
+    width: 18px;
+}
+.toggle-box:checked + label:before {
+    content: "\2212";
+}
+.box{
+    background: #fefefe;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Open Sans",sans-serif;
+    color: rgb(43, 43, 43);
+    max-width: 924px;
+}
+.box img{
+    height: auto;
+    border: rgba(0,0,0,0.3) solid 1px;
+}
+.left-img{
+    float: left;
+    margin: 5px 10px 0px 0px;
+}
+.right-img{
+    float: right;
+    margin: 5px 0 0 10px;
+}
+.large-img {width: 100%;margin-bottom: 5px;}
+
+.accordion label {
+    max-width: 813px;
+}
+.accordion-block {
+    max-width: 720px;
+}

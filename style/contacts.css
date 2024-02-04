@@ -1,0 +1,226 @@
+.contacts {
+    padding: 20px 90px 0 90px;
+}
+.contacts .container {
+    max-width: 1540px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.contacts-img img {
+    width: 530px;
+}
+.contacts-info {
+    background-image: url("../images/card_new/31.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contacts-info-title {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 55px;
+}
+.contacts-info-tel {
+    font-size: 56px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+}
+.contacts-info-text {
+    display: flex;
+    margin-bottom: 109px;
+}
+.contacts-info-text-left {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+}
+.contacts-info-text-right {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(239, 129, 80);
+    border-bottom: 1px solid rgb(239, 129, 80);
+}
+.contacts-info-poch, .contacts-info-toch {
+    display: flex;
+}
+.contacts-info-poch-img, .contacts-info-toch-img {
+    margin-left: -10%;
+    margin-right: 30px;
+    position: relative;
+}
+
+.contacts-info-poch-img_g img {
+    width: 40px;
+}
+
+.contacts-info-poch-img_g {
+    margin-left: -11%;
+    margin-top: -12px;
+    padding-left: 2px;
+}
+.contacts-info-poch-img-line {
+    position: absolute;
+    left: -432%;
+    top: 2%;
+    display: none;
+}
+.contacts-info-poch-img-line2 {
+    position: absolute;
+    left: -473%;
+    top: 2%;
+    display: none;
+}
+.contacts-info-poch-text {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(239, 129, 80);
+    margin-top: -8px;
+    margin-bottom: 30px;
+}
+.contacts-info-poch-text:hover {
+    border-bottom: 1px solid rgb(239, 129, 80);
+}
+.contacts-info-poch-text a {
+    text-decoration: none;
+    color: rgb(239, 129, 80);
+}
+.contacts-info-poch-text_s {
+    border-bottom: 0;
+}
+.contacts-info-poch-text_s a {
+    text-decoration: none;
+    color: rgb(239, 129, 80);
+}
+.contacts-info-toch-text1, .contacts-info-toch-text2 {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+.contacts-info-toch-text1 a, .contacts-info-toch-text2 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contacts-info-toch {
+    margin-bottom: 40px;
+}
+.contacts-info-dobr {
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(239, 129, 80);
+    border-bottom: 1px solid rgb(239, 129, 80);
+    max-width: 154px;
+}
+.text2 {
+    margin-top: 40px;
+}
+
+.contacts-popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20%;
+    max-width: 500px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: none;
+    z-index: 1100;
+}
+.contacts-popup2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: none;
+    z-index: 1100;
+}
+
+.contacts-popup-close {
+    margin-left: 92%;
+    margin-top: 2%;
+}
+.contacts-popup-close img {
+    width: 25px;
+    height: 25px;
+}
+
+.contacts-popup-title, .contacts-popup-title1, .contacts-popup-title2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(237, 117, 45);
+    line-height: 1.25;
+}
+
+.contacts-popup-title1, .contacts-popup-title2 {
+    margin-top: 0;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.contacts-popup-title2 {
+    padding-top: 20px;
+    font-size: 28px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.ecovac-right-input {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.ecovac-right-input input {
+    border: none;
+    border-radius: 15px;
+    width: 60%;
+    padding: 40px 0 30px 20%;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: #2b2b2b;
+    background-color: #f2f2f2;
+}
+input::-webkit-input-placeholder { color: #2b2b2b; }
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+}
+.ecovac-right-input-btn {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.ecovac-right-input-btn button {
+    width: 80%;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    background: #ed752d;
+}
+
+.contacts-bg {
+    background-color: #000000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+
+
+

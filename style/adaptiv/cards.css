@@ -1,0 +1,397 @@
+@media screen and (min-width: 1919px) {
+    .equipment2 .container {
+        max-width: 1920px;
+    }
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 11% 22% 12% 12% 14% 12% 16%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 13% 16% 11% 21% 17% 25%;
+    }
+    /*.ecovac2 {*/
+    /*    max-width: 1920px;*/
+    /*}*/
+}
+@media screen and (max-width: 1912px) {
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 11% 22% 12% 12% 14% 12% 16%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 14% 15% 11% 21% 17% 22%;
+    }
+}
+
+@media screen and (max-width: 1683px) {
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 15% 13% 11% 21% 18% 22%;
+    }
+}
+@media screen and (max-width: 1583px) {
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 17% 11% 11% 21% 18% 22%;
+    }
+}
+@media screen and (max-width: 1640px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .ecovac-title {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ecovac-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ecovac-middle-title, .ecovac-middle-title1 {
+        max-width: 1150px;
+    }
+    .ecovac-left-img {
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    .card-characteristic-text {
+        grid-template-columns: 34% 40%;
+    }
+    .card-characteristic-text_6 {
+        grid-template-columns: 23% 20%;
+    }
+    .card-right2 {
+        margin: 0 auto;
+    }
+    .equipment2-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cards-card-img {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .cards-card-title {
+        font-size: 42px;
+        margin-bottom: 40px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .cards-card-info {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .cards-card-info-text {
+        font-size: 18px;
+        margin-top: 17px;
+        margin-left: 20px;
+    }
+    .cards-card {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .equipment-content-right-client-right-content {
+        display: grid;
+        grid-template-columns: 22% 50%;
+    }
+    .equipment-content-right-client-right-content-left-img img {
+        width:56px;
+        padding-top: 11px;
+    }
+    .equipment-content-right-client-right-content-left-img {
+        margin-bottom: 22px;
+    }
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 12% 20% 10% 13% 10% 14% 13%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 13% 14% 11% 20% 17% 22%;
+    }
+    .ecovac-left-equipment-item-text {
+       max-width: 800px;
+    }
+
+    .ecovac-middle-electrical-1-item:nth-child(1) {
+        max-width: 210px;
+    }
+
+    .equipment2-cards .cards-card {
+        border-bottom: 0;
+        border-right: 2px solid #919191;
+    }
+    .equipment2-cards .cards-card:nth-child(3) {
+        border-bottom: 2px solid #919191;
+    }
+
+}
+@media screen and (max-width: 1348px) {
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 14% 13% 11% 20% 17% 22%;
+    }
+}
+@media screen and (max-width: 1321px) {
+    .card-chars {
+        grid-template-columns: 25% 42%;
+    }
+    .card-characteristics {
+        grid-template-columns: 25% 48%;
+    }
+    .card-characteristic-text {
+        grid-template-columns: 34% 56%;
+    }
+    .card-characteristic-text_9_1 {
+        grid-template-columns: 52% 39%;
+    }
+    .card-characteristic-text_9_2 {
+        grid-template-columns: 57% 118%;
+    }
+}
+@media screen and (max-width: 1265px) {
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 15% 12% 12% 20% 17% 22%;
+    }
+}
+@media screen and (max-width: 1231px) {
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 12% 20% 10% 15% 8% 16% 12%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 13% 14% 11% 20% 17% 22%;
+    }
+}
+@media screen and (max-width: 1214px) {
+
+}
+@media screen and (max-width: 1025px) {
+    .ecovac-left-equipment-title {
+        margin-top: 30px;
+    }
+    .equipment-content-right-title2 {
+        text-align: center;
+    }
+    .equipment-content-right-client {
+        grid-template-columns: 49% 85%;
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .ecovac-left-arrov {
+        margin-left: 0%;
+    }
+    .card-characteristic-text {
+        grid-template-columns: 50% 50%;
+    }
+
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 13% 20% 10% 15% 8% 17% 12%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 13% 15% 11% 20% 18% 22%;
+    }
+
+}
+@media screen and (max-width: 769px) {
+    .equipment-content-right-client {
+        grid-template-columns: 41% 85%;
+    }
+    .equipment-content-right-client-right-content {
+        grid-template-columns: 39% 38%;
+    }
+    .card-characteristic-text-number {
+        font-size: 50px;
+    }
+    .card-characteristic-text_6 {
+        grid-template-columns: 38% 35%;
+    }
+    .ecovac-middle-electrical-1-item:nth-child(1) {
+        /*padding-left: 20px;*/
+        /*max-width: 50px;*/
+        /*max-width: 80px;*/
+    }
+    .ecovac-middle-electrical-1 {
+        grid-template-columns: 12% 20% 15% 13% 10% 16% 12%;
+    }
+    .ecovac-middle-electrical-1_workers {
+        grid-template-columns: 16% 13% 11% 21% 17% 22%;
+    }
+}
+@media screen and (max-width: 431px) {
+    .ecovac-content {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+    }
+    .ecovac-title {
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+    }
+    .ecovac2 .container {
+        padding: 50px 30px 0 50px;
+    }
+    .ecovac-middle-title {
+        font-size: 30px;
+        margin-top: -20%;
+    }
+    .ecovac-left-img {
+        margin: 0;
+    }
+    .ecovac-left-equipment-item-text {
+        font-size: 14px;
+    }
+    .equipment-content-left-title, .equipment-content-right-title, .equipment-content-right-title2 {
+        font-size: 30px;
+    }
+    .card-characteristic-text1-text1 {
+        font-size: 12px;
+    }
+    .card-characteristic-text-number {
+        font-size: 36px;
+    }
+    .card-characteristic-arrov-right {
+        font-size: 14px;
+    }
+    .card-characteristic-title33 {
+        margin-top: 7px;
+    }
+    .card-characteristic-text-text {
+        font-size: 14px;
+    }
+    .card-characteristic-text1-text2 {
+        margin-left: 0;
+        width: 290px;
+    }
+    .card-characteristic-text2-text2 {
+        margin-left: 0;
+        width: 290px;
+    }
+    .card-characteristic-text3-text2 {
+        margin-left: 0;
+        width: 290px;
+    }
+    .card-characteristic-text4-text2 {
+        margin-left: 0;
+        width: 290px;
+    }
+    .card-characteristic-text5-text2 {
+        margin-left: 0;
+        width: 290px;
+    }
+    .card-characteristic-text1-text1-1 {
+        padding-top: 15px;
+    }
+    .card-characteristic-text1-text1-2 {
+        padding-top: 16px;
+    }
+    .card-characteristic-text1-text1-3 {
+        padding-top: 16px;
+    }
+    .card-characteristic-text1-text1-4 {
+        padding-top: 15px;
+    }
+    .equipment-content-right-text {
+        font-size: 14px;
+    }
+    .equipment-content-right-title2 {
+        text-align: left;
+    }
+    .ecovac-middle-title2 {
+        font-size: 20px;
+    }
+    .card-characteristics {
+        flex-direction: column;
+    }
+    .card-characteristic-title {
+        max-width: 150px;
+    }
+    .card-characteristic-text1, .card-characteristic-text2, .card-characteristic-text3, .card-characteristic-text4, .card-characteristic-text5 {
+        display: block;
+    }
+
+    .card-characteristic_2 {
+        display: flex;
+    }
+    .card-characteristic-title {
+        margin-right: 50px;
+    }
+
+
+    .equipment-content-right-client {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .equipment-info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .equipment-content-right-client-right-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .equipment-content-right-client-right-content-left {
+        display: grid;
+        grid-template-columns: 36% 62%;
+    }
+    .equipment-content-right-client-right-content-right {
+        display: grid;
+        grid-template-columns: 36% 62%;
+    }
+    .equipment-content-right-client-left-text-text2, .equipment-content-right-client-right-content-left-text, .equipment-content-right-client-right-content-right-text {
+        max-width: 200px;
+    }
+    .equipment-content-right-client-right-content-right-text {
+        padding-top: 15px;
+    }
+
+
+    .cards-card-info {
+        display: block;
+    }
+    .cards-card-info-btn {
+        margin: 0 auto;
+    }
+    .cards-card-info-text {
+        font-size: 16px;
+        margin-top: 27px;
+        text-align: center;
+    }
+    .cards-card-title {
+            font-size: 36px;
+        }
+    .equipment-content-right-title_2, .ecovac-middle-electrical, .ecovac-middle-electrical-1_workers,
+    .ecovac-middle-electrical-1 {
+        display: none;
+    }
+
+
+    .card-chars {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin-bottom: 65px;
+    }
+    .card-characteristic-text {
+        display: block;
+    }
+
+    /*.equipment2-cards {*/
+    /*    grid-template-columns: repeat(1, 420px);*/
+    /*}*/
+}
+@media screen and (max-width: 376px) {
+    .ecovac-left-img {
+        margin-left: -12%;
+    }
+    .card-characteristic-arrov-right {
+        font-size: 12px;
+    }
+
+    .cards-card:nth-child(3) .cards-card-img img {
+        margin-left: -26%;
+    }
+    /*.equipment2-cards {*/
+    /*    grid-template-columns: repeat(1, 372px);*/
+    /*}*/
+}
+@media screen and (max-width: 321px) {
+    .ecovac2 .container {
+        padding: 50px 30px 0 10px;
+    }
+    .equipment2-title {
+        margin-left: 36px;
+    }
+    /*.equipment2-cards {*/
+    /*    grid-template-columns: repeat(1, 320px);*/
+    /*}*/
+}

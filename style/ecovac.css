@@ -1,0 +1,284 @@
+.ecovac {
+    max-width: 1540px;
+    padding: 50px 75px 0 90px;
+}
+
+.ecovac .container {
+    display: grid;
+    /*grid-template-columns: 33% 36% 33%;*/
+    grid-template-columns: 70% 30%;
+    background: #ffffff;
+}
+.equipment-content {
+    background: #ffffff;
+}
+
+.ecovac-left-arrov {
+    max-width: 479px;
+    display: grid;
+    grid-template-columns: 14% 79%;
+    margin-bottom: 95px;
+    margin-left: 0;
+}
+
+.ecovac-left-arrov-text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: -5px;
+    text-decoration: none;
+}
+
+.ecovac-left-img {
+    width: 320px;
+}
+
+.ecovac-middle-curve img {
+    width: 350px;
+}
+.ecovac-left-img img {
+    width: 380px;
+}
+
+.ecovac-left-img_micro {
+    margin-left: 6%;
+}
+.ecovac-left-img_micro img {
+    width: 250px;
+}
+
+.ecovac-left-img_tramp img {
+    width: 280px;
+}
+.ecovac-left-img_5 {
+    margin-left: 11%;
+}
+.ecovac-left-img_5 img {
+    width: 255px;
+}
+
+.ecovac-left-img_3 {
+    margin-left: 11%;
+}
+.ecovac-left-img_3 img {
+    width: 255px;
+}
+.ecovac-left-img-card3, .ecovac-left-img-card5 {
+    margin-left: 11%;
+}
+.ecovac-left-img-card3 img {
+    width: 255px;
+}
+.ecovac-left-img-card5 img {
+    width: 255px;
+}
+
+.ecovac-left-img-card9 {
+    margin-left: -9%;
+}
+.ecovac-left-img-card9 img {
+    width: 280px;
+}
+.ecovac-middle-title {
+    font-size: 48px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 367px;
+    margin-bottom: 190px;
+    margin-top: -10px;
+}
+
+.ecovac-middle-title strong {
+    color: #ed752d;
+}
+
+.ecovac-middle-number {
+    display: flex;
+}
+.ecovac-middle-number-nunber {
+    font-size: 56px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+
+.ecovac-middle-number-nunber_text {
+    font-size: 42px;
+}
+.ecovac-middle-number-text {
+    font-size: 24px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    padding-top: 26px;
+}
+
+.ecovac-middle-number-text2 {
+    padding-top: 26px;
+}
+
+
+
+.ecovac-right-input-date-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 6%;
+}
+.ecovac-right {
+    border: 2px solid #ed752d;
+    border-radius: 15px;
+    max-height: 650px;
+}
+.ecovac-right-info {
+    margin: 0 auto;
+    /*padding: 50px 0 50px 0;*/
+    padding: 60px 0 30px 0;
+    max-width: 90%;
+}
+.ecovac-right-input {
+    max-width: 513px;
+}
+.ecovac-right-input {
+    padding-right: -2px;
+    /*border: 1px solid #bfbfbf;*/
+    /*border-radius: 15px;*/
+    margin-bottom: 20px;
+}
+.ecovac-right-input select {
+    width: 96%;
+    padding: 16px 0 21px 30px;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #bfbfbf;
+    border-radius: 15px;
+    color: #2b2b2b;
+}
+.ecovac-right-input select option {
+    color: #2b2b2b;
+}
+.ecovac-right-input input {
+    border: 1px solid #bfbfbf;
+    border-radius: 15px;
+    width: 88%;
+    padding: 16px 0 21px 30px;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    color: #2b2b2b;
+}
+input::-webkit-input-placeholder { color: #2b2b2b; }
+input:focus, textarea:focus, select:focus {
+    outline: none !important;
+}
+.ecovac-right-input-date {
+    border: 1px solid #bfbfbf;
+    border-radius: 15px;
+}
+.ecovac-right-input-date input {
+    border: none;
+    width: 94%;
+    padding: 10px 0 10px 10px;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    border-radius: 15px;
+}
+.ecovac-right-input-date:nth-child(1) {
+    margin-right: 5px;
+}
+.ecovac-right-input-btn button {
+    width: 100%;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    background: #ed752d;
+}
+
+.equipment-content-card {
+    background-color: #ffffff!important;
+    margin-top: 0!important;
+}
+
+.ecovac-right-proda {
+    max-height: 570px;
+}
+
+.ecovac-right-proda2 {
+    max-height: 625px;
+}
+
+.contacts-popup2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: none;
+    z-index: 1100;
+}
+
+.contacts-popup-close {
+    margin-left: 92%;
+    margin-top: 2%;
+}
+.contacts-popup-title2 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(237, 117, 45);
+    line-height: 1.25;
+}
+
+.contacts-popup-title2 {
+    margin-top: 0;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.contacts-popup-title2 {
+    padding-top: 20px;
+    font-size: 28px;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.contacts-bg {
+    background-color: #000000;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+.ecovac-middle-left {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ecovac-middle-middle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: -33%;
+}
+
+.ecovac-middle-middle-right {
+    margin-top: 75%;
+}
+
+.ecovac-middle-number-text-bottom {
+    margin-bottom: 10%;
+}

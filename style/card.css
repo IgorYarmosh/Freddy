@@ -1,0 +1,586 @@
+.ecovac2 .container {
+    padding: 50px 75px 0 90px;
+}
+
+.ecovac-content {
+    display: grid;
+    grid-template-columns: 29% 46% 30%;
+}
+.ecovac-middle-title, .ecovac-middle-title1 {
+    font-size: 38px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 746px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+}
+
+.ecovac-middle-title1 {
+    color: #ed752d;
+    margin-bottom: 50px;
+}
+
+.ecovac-middle-title2 {
+    font-size: 28px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.ecovac-middle-text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.5;
+    max-width: 546px;
+    margin-bottom: 54px;
+}
+
+
+/*.card-characteristics {*/
+/*    display: grid;*/
+/*    grid-template-columns: 40% 73%;*/
+/*    !*grid-template-columns: 40% 78%;*!*/
+/*    margin-bottom: 0;*/
+
+/*}*/
+
+.card-characteristics {
+    display: flex;
+    margin-bottom: 0;
+
+}
+.card-characteristic-title {
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-transform: uppercase;
+    max-width: 100px;
+    margin-bottom: 45px;
+    margin-right: 135px;
+}
+.card-characteristic-text-number {
+    font-size: 64px;
+    font-family: "Montserrat-Medium", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.125;
+    margin-right: 16px;
+}
+.card-characteristic-text {
+    display: flex;
+    /*grid-template-columns: 60% 40%;*/
+    margin-bottom: 20px;
+}
+/*.card-characteristic-text_9 {*/
+/*    grid-template-columns: 40% 40%;*/
+/*}*/
+/*.card-characteristic-text_9_1 {*/
+/*    grid-template-columns: 51% 40%;*/
+/*}*/
+/*.card-characteristic-text_9_2 {*/
+/*    grid-template-columns: 26% 40%;*/
+/*}*/
+/*.card-characteristic-text_7 {*/
+/*    grid-template-columns: 46% 52%;*/
+/*}*/
+/*.card-characteristic-text_8 {*/
+/*    grid-template-columns: 50% 40%;*/
+/*}*/
+/*.card-characteristic-text_5_1 {*/
+/*    grid-template-columns: 47% 52%;*/
+/*}*/
+/*.card-characteristic-text_6 {*/
+/*    grid-template-columns: 40% 52%;*/
+/*}*/
+/*.card-characteristic-text_4 {*/
+/*    grid-template-columns: 50% 40%;*/
+/*}*/
+/*.card-characteristic-text_3 {*/
+/*    grid-template-columns: 48% 40%;*/
+/*}*/
+
+/*.card-characteristic-text_5 {*/
+/*    grid-template-columns: 40% 40%;*/
+/*}*/
+/*.card-characteristic-text-2 {*/
+/*    grid-template-columns: 52% 40%;*/
+/*}*/
+
+.card-characteristic-text-text {
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    max-width: 100px;
+}
+.card-characteristic-text1, .card-characteristic-text2, .card-characteristic-text3, .card-characteristic-text4,
+.card-characteristic-text5 {
+    display: flex;
+}
+.card-characteristic-text1-text1 {
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(43, 43, 43);
+    margin-bottom: 15px;
+}
+.card-characteristic-text1-text2 {
+    margin-left: 20px;
+    width: 120px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+.card-characteristic-text2-text2 {
+    margin-left: 20px;
+    width: 105px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+.card-characteristic-text3-text2 {
+    margin-left: 20px;
+    width: 100px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+.card-characteristic-text4-text2 {
+    margin-left: 20px;
+    width: 115px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+.card-characteristic-text5-text2 {
+    margin-left: 20px;
+    width: 85px;
+    border-bottom: 1px solid #aaaaaa;
+    margin-bottom: 15px;
+}
+.card-characteristic-title2 {
+    margin-bottom: 25px;
+}
+.card-characteristic-arrov-left-img {
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.card-characteristic-arrov-left-img2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.card-characteristic-arrov {
+    display: flex;
+}
+.card-characteristic-arrov-right {
+    font-size: 16px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(237, 117, 45);
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 105px;
+}
+.card-characteristic3 {
+    margin-top: 45px;
+}
+.card-right2 {
+    /*margin-top: 30%;*/
+    margin-left: 18%;
+}
+
+
+.sticky {
+    position: fixed;
+    z-index: 101;
+}
+.stop {
+    position: relative;
+    z-index: 101;
+}
+.card-right {
+    margin-top: 0%;
+    margin-left: -54%;
+}
+.card-right-btn button {
+    width: 300px;
+    font-size: 24px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 32px 0;
+    text-align: center;
+    background: #ed752d;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.ecovac-left-arrov {
+    /*margin-left: 20%;*/
+}
+
+.card-right-info {
+    width: 235px;
+    border: 10px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 25px;
+}
+.card-right-info1 {
+    display: flex;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 25px;
+}
+.card-right-info1-left, .card-right-info1-right {
+    font-size: 18px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+.card-right-info1-right {
+    margin-left: 54px;
+}
+.card-right-info2 {
+    padding-top: 25px;
+}
+.card-right-info1-right2 {
+    margin-left: 68px;
+}
+.card-right-info1-right3 {
+    margin-left: 44px;
+}
+.equipment {
+    /*padding-bottom: 80px;*/
+    padding-left: 80px;
+}
+.equipment .container {
+}
+.equipment-content {
+    display: grid;
+    grid-template-columns: 41% 34%;
+}
+.equipment-content-left-title, .equipment-content-right-title, .equipment-content-right-title2 {
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 48px;
+}
+
+.equipment-content-right-title1 {
+    font-size: 24px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #ed752d;
+    margin-bottom: 28px;
+}
+.equipment-content-right-title1 a {
+    text-decoration: none;
+    color: #ed752d;
+}
+.equipment-content-right-title_2 {
+    margin-bottom: 30px;
+}
+.equipment-content-left-text, .equipment-content-right-text {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.5;
+    max-width: 675px;
+    margin-bottom: 65px;
+}
+.equipment-content-left-images {
+    display: flex;
+}
+.equipment-content-left-img-left {
+    margin-right: 10px;
+}
+.equipment-content-left-img-left1 {
+    margin-bottom: 5px;
+}
+.equipment-content-right-title2 {
+    margin-bottom: 60px;
+}
+.equipment-content-right-client {
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.equipment-content-right-client-left-title, .equipment-content-right-client-right-title {
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 130px;
+    margin-bottom: 30px;
+}
+.equipment-content-right-client-left-text-text1 {
+    font-size: 16px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(237, 117, 45);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.equipment-content-right-client-left-text-text2, .equipment-content-right-client-right-content-left-text,
+.equipment-content-right-client-right-content-right-text {
+    font-size: 16px;
+    color: #959595;
+    max-width: 147px;
+    margin-bottom: 30px;
+}
+.equipment-content-right-client-right-title {
+    max-width: 400px;
+}
+.equipment-content-right-client-right-content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.equipment-content-right-client-right-content-left-img, .equipment-content-right-client-right-content-right-img {
+    margin-bottom: 22px;
+}
+.equipment-content-right-client-right-content-right-img {
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.equipment2 {
+    padding-bottom: 60px;
+}
+.equipment2-title {
+    font-size: 32px;
+    font-family: "Montserrat-Bold", sans-serif;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+    margin-left: 80px;
+    margin-top: 35px;
+}
+.equipment2-cards {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+}
+.cards-card:nth-child(3) .cards-card-img img {
+    margin-left: -40%;
+}
+.card-img-left {
+    margin-left: -36px;
+}
+
+.equipment-content-left-img-left1 img {
+    width: 200px;
+}
+.equipment-content-left-img-left2 img {
+    width: 200px;
+    /*height: 160px;*/
+}
+.equipment-content-left-img-right img {
+    width: 268px;
+    /*height: 307px;*/
+}
+
+.equipment-content2 {
+    display: grid;
+    grid-template-columns: 41% 34%;
+    background: #ffffff;
+}
+.equipment-content-left-img-right_4 img {
+    height: 216px;
+    width: 334px;
+}
+
+.equipment-content-left-img-right_7 img {
+    width: 333px;
+    height: 250px;
+}
+.equipment-content-left-img-right_8 img {
+    /* height: 277px; */
+    width: 287px;
+}
+.equipment-content-left-img-right-chu img{
+    width: 288px;
+}
+
+.equipment-content-left-img-right-micro img{
+    width: 315px;
+}
+
+.equipment-content-left-img-right-microplus img {
+    width: 322px;
+}
+.equipment-content-left-img-right-midi img {
+    width: 335px;
+}
+.equipment-content-left-img-right-superminor img {
+    width: 335px;
+}
+.equipment-content-left-img-right-tramp img {
+    width: 200px;
+}
+
+.ecovac-middle-electrical {
+    display: grid;
+    grid-template-columns: 13% 16% 12% 9% 12% 10% 15%;
+    grid-column-gap: 13px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 15px;
+}
+
+.ecovac-middle-workers {
+    grid-template-columns: 13% 25% 16% 19% 18%;
+}
+
+.ecovac-middle-workers_1 {
+    grid-template-columns: 13% 26% 23% 31%;
+}
+
+.ecovac-middle-electrical-item_2_1_1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ecovac-middle-electrical-item, .ecovac-middle-electrical-item_2_1 {
+    text-align: center;
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(237, 117, 45);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+
+.ecovac-middle-electrical-1 {
+    display: grid;
+    /*grid-template-columns: 18% 19% 15% 12% 13% 15% 8%;*/
+    /*grid-template-columns: 18% 18% 15% 13% 13% 15% 8%;*/
+    grid-template-columns: 12% 22% 12% 12% 14% 12% 16%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 15px;
+}
+
+.ecovac-middle-electrical-1_workers {
+    /* grid-template-columns: 17% 13% 13% 20% 21% 16%; */
+    /*grid-template-columns: 13% 12% 17% 17% 22% 19%;*/
+    grid-template-columns: 13% 16% 11% 21% 17% 25%;
+}
+
+.ecovac-middle-electrical-1-item {
+    text-align: center;
+}
+
+.ecovac-middle-electrical-1_workers_2 {
+    border-bottom: 0;
+    margin-bottom: 50px;
+}
+
+.ecovac-middle-electrical-1-item:nth-child(1) {
+    /*max-width: 82px;*/
+}
+.ecovac-middle-electrical-1_workers .ecovac-middle-electrical-1-item:nth-child(1) {
+    /*max-width: 83px;*/
+}
+
+/*.ecovac-middle-electrical-1_workers {*/
+/*    !*grid-template-columns: 17% 13% 13% 20% 21% 16%;*!*/
+/*    grid-template-columns: 18% 12% 17% 17% 22% 14%;*/
+/*}*/
+
+.ecovac-middle-electrical-1_workers_1 {
+    /*grid-template-columns: 17% 13% 18% 29% 22%;*/
+    grid-template-columns: 17% 9% 17% 25% 32%;
+}
+
+.ecovac-middle-electrical-1-item {
+    font-size: 16px;
+    font-family: "OpenSans-Medium", sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+.ecovac-middle-electrical-1-item strong {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.ecovac-middle-electrical-1_1 {
+    margin-bottom: 50px;
+    border-bottom: 0;
+}
+
+.ecovac-left-equipment-title {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.ecovac-left-equipment-items {
+    margin-bottom: 33px;
+}
+.ecovac-left-equipment-item {
+    display: grid;
+    grid-template-columns: 8% 92%;
+    margin-bottom: 23px;
+}
+
+/*.ecovac-left-equipment-item_1 {*/
+/*    margin-bottom: 66px;*/
+/*}*/
+
+.ecovac-left-equipment-item-text {
+    font-size: 14px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(237, 117, 45);
+    font-weight: bold;
+    max-width: 346px;
+}
+
+.ecovac-left-equipment-item-img {
+    padding-top: 2px;
+}
+
+.ecovac-left-equipment-img img {
+    width: 90%;
+}
+.ecovac-left-equipment-img {
+    margin-bottom: 35px;
+}
+
+.ecovac-left-equipment-text1 {
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(43, 43, 43);
+    line-height: 1.5;
+    max-width: 350px;
+}
+
+.card-chars {
+    display: flex;
+    margin-bottom: 65px;
+}
+
+.card-char:nth-child(1) {
+    margin-right: 10px;
+}
+
+.card-characteristic-block {
+    display: grid;
+    grid-template-columns: 56% 47%;
+}
+
+.ecovac-title {
+    display: grid;
+    grid-template-columns: 29% 45%;
+}
+
+.equipment-content-right-client-right-content-left-img img {
+    width:56px;
+    padding-top: 11px;
+}
+
+.equipment-content-right-client-right-content-left-img {
+    margin-bottom: 28px;
+}
+
+.equipment2-cards .cards-card {
+    border-bottom: 2px solid #919191;
+}
+
+.cards-card:nth-child(1) {
+    border-right: 0;
+}
